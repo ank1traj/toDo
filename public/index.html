@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ToDo</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script href="js/bootstrap.min.js" ></script>
+    <link href="css/signin.css" rel="stylesheet">
+
+    <script src="angular/angular.min.js"></script>
+    <script src="angular-route/angular-route.min.js"></script>
+
+     <!-- load up our controller -->
+    <script src="js/constants/constant.js"></script>
+    <script src="js/routes/routes.js"></script> <!-- load up our controller -->
+    <script src="js/services/todo.js"></script> <!-- load our todo service -->
+    <script src="js/controllers/main.js"></script>
+    <script src="js/core.js"></script> <!-- load our main application -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body data-ng-app="todoCore">
+
+    <div data-ng-view=""></div>
+
+</body>
+
+</html>

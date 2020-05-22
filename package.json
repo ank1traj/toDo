@@ -1,0 +1,32 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "ToDo web full stack application where user can create, read, update and delete todo notes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "notes",
+    "list"
+  ],
+  "author": "Ankti Raj",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "bcryptjs": "^2.3.0",
+    "body-parser": "~1.9.2",
+    "bootstrap": "^3.3.7",
+    "cors": "^2.8.1",
+    "express": "~4.9.8",
+    "jwt-simple": "^0.3.1",
+    "mongodb": "^2.2.10",
+    "mongoose": "~4.2.4",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "~1.5.0",
+    "passport": "^0.3.0",
+    "passport-jwt": "^1.2.1"
+  }
+}

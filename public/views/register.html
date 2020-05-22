@@ -1,0 +1,15 @@
+<div class="container">
+
+    <form class="form-signin">
+        <h2 class="form-signin-heading">Please sign up</h2>
+        <label for="name" class="sr-only">Username</label>
+        <input data-ng-model="user.name" id="name" type="text" class="form-control" placeholder="Username" required="required" autofocus="autofocus" tabindex="1">
+        <label for="password" class="sr-only">Password</label>
+        <input data-ng-model="user.password" id="password" type="password" class="form-control" placeholder="Password" required="required" tabindex="2">
+
+        <p><button data-ng-click="register()" class="btn btn-lg btn-primary btn-block" tabindex="3">Sign up</button></p>
+
+        <p> <a href="#signin">Go back.</a></p>
+    </form>
+
+</div>
