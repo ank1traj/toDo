@@ -14,7 +14,7 @@
   "author": "Ankti Raj",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.5.8",
+    "angular": "^1.8.3",
     "angular-route": "^1.5.8",
     "bcryptjs": "^2.3.0",
     "body-parser": "~1.9.2",
